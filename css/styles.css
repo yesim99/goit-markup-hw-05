@@ -279,6 +279,7 @@ address {
 }
 
 .section1 {
+  position: relative;
   display: flex;
     flex-direction: column;
     align-items: center;
@@ -488,11 +489,17 @@ transform: translateY(100%);
 }
 .modal p {
 color: #2e2f42;
+margin-bottom: 24px;
+margin-top: 24px;
+font-size: 16px;
+letter-spacing: 2%;
+line-height: 1.16;
+
 }
 .modal form {
   position: relative;
   width: 408px;
-  height: 584px;
+    height: 584px;
   color: #8e8f99;
   display: flex;
   flex-direction: column;
@@ -503,18 +510,20 @@ box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2),
   0px 1px 1px rgba(0, 0, 0, 0.14);
   border-radius: 4px;
   justify-content: center;
-  margin-top: 24px
+  margin-top: 24px;
+  
 }
 #form-buton {
-  align-items: center;
-  justify-content: center;
   width: 169px;
   height: 56px;
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   margin-bottom: 24px;
   color: white;
+  margin-left: 119px;
+  margin-right: 120px;
+  padding: 16px 32px;
+  
 
 }
 #form-buton:hover:active {
@@ -555,6 +564,8 @@ border: 1px solid rgba(0, 0, 0, 0.1);
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
   0px 1px 1px rgba(0, 0, 0, 0.14),
   0px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-top: 24px;
+  margin-right: 24px;
 }
 #modal-kapat:hover {
   color: #404bbf;
@@ -562,5 +573,26 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 .icon-close-black-18dp-2-1 {
   height: 8px;
   width: 8px;
+  transform: translate(50%,-50%);
+}
+.modal .input .icon {
+  position: absolute;
+  width: 18px;
+  height: 24px;
+  top: 50%;
+  left: 0;
+  margin-left: 16px;
   align-items: center;
+  }
+  .input{
+    transform: translateY(-50%);
+  }
+#checkbox {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 4%;
 }
