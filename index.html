@@ -40,6 +40,49 @@
       <section class="section1">
         <h1 class="page-title">Effective Solutions for Your Business</h1>
         <button type="button" class="button">Order Service</button>
+        <!--Modal başlangıç-->
+        <div class="modal">
+          <form>
+            <div id="modal-kapat" >
+              <svg class="icon icon-close-black-18dp-2-1">
+                <use xlink:href="./images/icons.svg/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
+              </svg>
+            </div>
+            <p>Leave your contacts and we will call you back</p>
+            <div>
+            <label>Name</label>
+            <input  type="text" placeholder="" name="name" />
+            <svg class="icon icon-Frame-1">
+              <use xlink:href="./images/icons.svg/symbol-defs.svg#icon-Frame-1"></use>
+            </svg>
+            </div>
+            <div>
+            <label>Phone</label>
+            <input type="tel" placeholder="Phone" name="tel" />
+            <svg class="icon icon-phone-black-18dp-1">
+              <use xlink:href="./images/icons.svg/symbol-defs.svg#icon-phone-black-18dp-1"></use>
+            </svg>
+            </div>
+            <div>
+            <label>Email</label>
+            <input type="email" placeholder="Email" name="email" />
+            <svg class="icon icon-email-black-18dp-1">
+              <use xlink:href="./images/icons.svg/symbol-defs.svg#icon-email-black-18dp-1"></use>
+            </svg>
+            </div>
+            <div>
+            <label>Comment</label>
+            <textarea type="text" placeholder="Text İnput" name="text"></textarea>
+            </div>
+            <div>
+            <label>
+            <input id="checkbox" type="checkbox" name="policy" value="I accept the terms and conditions of the Privacy Policy" checked />I accept the terms and conditions of the <span id="checkbox-span">Privacy Policy</span>
+            </label>
+            </div>
+            <button id="form-buton" type="submit">Send</button>
+
+          </form>
+        </div>
       </section>
 <!--Bölüm 1-->
 
@@ -353,17 +396,21 @@
       </ul>
     </div>
     <div class="form">
+      <div class="emailfooter">
       <p class="başlık">Subscribe</p>
       <form class="form1">
         <label class="label">
           <input type="email" name="email" placeholder="E-mail" required>
         </label>
         <button type="submit" class="abone">Subscribe
+          <div class="button-svg1">
           <svg class="icon icon-Frame-3">
             <use xlink:href="./images/icons.svg/symbol-defs.svg#icon-Frame-3"></use>
           </svg>
+          </div>
         </button>
       </form>
+      </div>
     </div>
 
     </footer>
