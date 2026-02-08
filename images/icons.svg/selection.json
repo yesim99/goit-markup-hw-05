@@ -20,7 +20,7 @@
         {}
       ],
       "properties": {
-        "order": 18,
+        "order": 27,
         "id": 0,
         "name": "close-black-18dp-2-1",
         "prevSize": 32
@@ -57,7 +57,7 @@
         {}
       ],
       "properties": {
-        "order": 19,
+        "order": 28,
         "id": 3,
         "name": "email-black-18dp-1",
         "prevSize": 32
@@ -74,11 +74,11 @@
         ],
         "attrs": [
           {
-            "fill": "rgb(77, 90, 229)"
+            "fill": "rgb(96, 96, 96)"
           },
           {
             "fill": "none",
-            "stroke": "rgb(255, 255, 255)",
+            "stroke": "rgb(0, 0, 0)",
             "strokeLinejoin": "miter",
             "strokeLinecap": "round",
             "strokeMiterlimit": "4",
@@ -112,11 +112,11 @@
       },
       "attrs": [
         {
-          "fill": "rgb(77, 90, 229)"
+          "fill": "rgb(96, 96, 96)"
         },
         {
           "fill": "none",
-          "stroke": "rgb(255, 255, 255)",
+          "stroke": "rgb(0, 0, 0)",
           "strokeLinejoin": "miter",
           "strokeLinecap": "round",
           "strokeMiterlimit": "4",
@@ -124,7 +124,7 @@
         }
       ],
       "properties": {
-        "order": 20,
+        "order": 29,
         "id": 2,
         "name": "Frame-1",
         "prevSize": 32
@@ -161,7 +161,7 @@
         {}
       ],
       "properties": {
-        "order": 21,
+        "order": 30,
         "id": 1,
         "name": "phone-black-18dp-1",
         "prevSize": 32
@@ -177,7 +177,7 @@
         ],
         "attrs": [
           {
-            "fill": "rgb(255, 255, 255)"
+            "fill": "rgb(160, 160, 160)"
           }
         ],
         "isMulticolor": false,
@@ -201,11 +201,11 @@
       },
       "attrs": [
         {
-          "fill": "rgb(255, 255, 255)"
+          "fill": "rgb(160, 160, 160)"
         }
       ],
       "properties": {
-        "order": 25,
+        "order": 31,
         "id": 0,
         "name": "Frame-3",
         "prevSize": 32
@@ -245,6 +245,7 @@
     },
     "historySize": 50,
     "showCodes": true,
-    "gridSize": 16
+    "gridSize": 16,
+    "showGrid": false
   }
 }
