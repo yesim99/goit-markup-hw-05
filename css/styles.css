@@ -476,7 +476,7 @@ transform: translateY(100%);
   justify-content: space-between;
   gap: 16px;
 }
-.form1 input[type="email"]:hover{
+.form1 input[type="email"]:hover {
  color: green;
 }
 
