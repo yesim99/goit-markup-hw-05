@@ -476,12 +476,13 @@ transform: translateY(100%);
   justify-content: space-between;
   gap: 16px;
 }
-.form1 .input:hover {
-  border-color: green;
+.form1>input:hover {
+ color: green;
 }
 
-.label>input {
+.form1>input {
   color: #ffffff;
+  outline: none;
 }
 .button-svg1 {
   color: #FFFFFF;
