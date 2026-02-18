@@ -544,7 +544,7 @@ address {
   background: rgba(46, 47, 66, 0.4);
 }
 
-.modal:focus-within form {
+.modal.is-open:focus-within form {
   opacity: 1;
   visibility: visible;
   transition: transform 250 ms cubic-bezier(0.4, 0, 0.2, 1)
