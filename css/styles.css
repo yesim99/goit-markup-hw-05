@@ -550,8 +550,10 @@ address {
   transition: transform 250 ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .modal input:focus-within{
-  fill: #4D5AE5;
     border: 1px solid #4d5ae5;
+}
+.modal.input .icon:focus{
+  fill: #4D5AE5;
 }
 
 .üstyazi {
