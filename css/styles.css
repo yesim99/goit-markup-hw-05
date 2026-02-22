@@ -541,8 +541,7 @@ address {
   background: rgba(46, 47, 66, 0.4);
 }
 .is-open {
-  visibility: hidden;
-  position: fixed;
+  display: flex;
 }
 .modal form:focus-within {
   opacity: 1;
@@ -552,7 +551,7 @@ address {
 .modal input:focus-within{
     border: 1px solid #4d5ae5;
 }
-.modal.input .icon:focus{
+.modal .input input:focus~.icon{
   fill: #4D5AE5;
 }
 
